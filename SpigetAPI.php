@@ -91,7 +91,7 @@ class SpigetAPI
      * @param int $size The size of the list.
      * @param int $page The page of the list.
      * @param string $sort Sort the list with + for ascending and - for descending in front of the field you want to sort by.
-     * @param array $fields The fields you want receive.
+     * @param array $fields The fields you want to receive.
      * @return array
      * @throws SpigetException
      */
@@ -112,7 +112,7 @@ class SpigetAPI
      * @param int $size The results max. size.
      * @param int $page The page you want to get.
      * @param string $sort Sort the list with + for ascending and - for descending in front of the field you want to sort by.
-     * @param array $fields The fields you want receive.
+     * @param array $fields The fields you want to receive.
      * @return array
      * @throws SpigetException
      */
@@ -133,7 +133,7 @@ class SpigetAPI
      * @param int $size The results max. size.
      * @param int $page The page you want to get.
      * @param string $sort Sort the list with + for ascending and - for descending in front of the field you want to sort by.
-     * @param array $fields The fields you want receive.
+     * @param array $fields The fields you want to receive.
      * @return array
      * @throws SpigetException
      */
@@ -153,7 +153,7 @@ class SpigetAPI
      * @param int $size The size of the list.
      * @param int $page The page of the list.
      * @param string $sort Sort the list with + for ascending and - for descending in front of the field you want to sort by.
-     * @param array $fields The fields you want receive.
+     * @param array $fields The fields you want to receive.
      * @return array
      * @throws SpigetException
      */
@@ -186,7 +186,7 @@ class SpigetAPI
      * @param int $size The size of the list.
      * @param int $page The page of the list.
      * @param string $sort Sort the list with + for ascending and - for descending in front of the field you want to sort by.
-     * @param array $fields The fields you want receive.
+     * @param array $fields The fields you want to receive.
      * @return array
      * @throws SpigetException
      */
@@ -231,7 +231,7 @@ class SpigetAPI
      * @param int $size The size of the list.
      * @param int $page The page of the list.
      * @param string $sort Sort the list with + for ascending and - for descending in front of the field you want to sort by.
-     * @param array $fields The fields you want receive.
+     * @param array $fields The fields you want to receive.
      * @return array
      * @throws SpigetException
      */
@@ -252,7 +252,7 @@ class SpigetAPI
      * @param int $size The size of the list.
      * @param int $page The page of the list.
      * @param string $sort Sort the list with + for ascending and - for descending in front of the field you want to sort by.
-     * @param array $fields The fields you want receive.
+     * @param array $fields The fields you want to receive.
      * @return array
      * @throws SpigetException
      */
@@ -273,7 +273,7 @@ class SpigetAPI
      * @param int $size The size of the list.
      * @param int $page The page of the list.
      * @param string $sort Sort the list with + for ascending and - for descending in front of the field you want to sort by.
-     * @param array $fields The fields you want receive.
+     * @param array $fields The fields you want to receive.
      * @return array
      * @throws SpigetException
      */
@@ -294,7 +294,7 @@ class SpigetAPI
      * @param int $size The size of the list.
      * @param int $page The page of the list.
      * @param string $sort Sort the list with + for ascending and - for descending in front of the field you want to sort by.
-     * @param array $fields The fields you want receive.
+     * @param array $fields The fields you want to receive.
      * @return array
      * @throws SpigetException
      */
@@ -314,7 +314,7 @@ class SpigetAPI
      * @param int $size The size of the list.
      * @param int $page The page of the list.
      * @param string $sort Sort the list with + for ascending and - for descending in front of the field you want to sort by.
-     * @param array $fields The fields you want receive.
+     * @param array $fields The fields you want to receive.
      * @return array
      * @throws SpigetException
      */
@@ -334,7 +334,7 @@ class SpigetAPI
      * @param int $size The size of the list.
      * @param int $page The page of the list.
      * @param string $sort Sort the list with + for ascending and - for descending in front of the field you want to sort by.
-     * @param array $fields The fields you want receive.
+     * @param array $fields The fields you want to receive.
      * @return array
      * @throws SpigetException
      */
@@ -354,7 +354,7 @@ class SpigetAPI
      * @param int $size The size of the list.
      * @param int $page The page of the list.
      * @param string $sort Sort the list with + for ascending and - for descending in front of the field you want to sort by.
-     * @param array $fields The fields you want receive.
+     * @param array $fields The fields you want to receive.
      * @return array
      * @throws SpigetException
      */
@@ -374,7 +374,7 @@ class SpigetAPI
      * @param int $size The size of the list.
      * @param int $page The page of the list.
      * @param string $sort Sort the list with + for ascending and - for descending in front of the field you want to sort by.
-     * @param array $fields The fields you want receive.
+     * @param array $fields The fields you want to receive.
      * @return array
      * @throws SpigetException
      */
@@ -396,7 +396,7 @@ class SpigetAPI
      * @param int $size The size of the list.
      * @param int $page The page of the list.
      * @param string $sort Sort the list with + for ascending and - for descending in front of the field you want to sort by.
-     * @param array $fields The fields you want receive.
+     * @param array $fields The fields you want to receive.
      * @return array
      * @throws SpigetException
      */
@@ -419,7 +419,7 @@ class SpigetAPI
      * @param int $size The results max. size.
      * @param int $page The page you want to get.
      * @param string $sort Sort the list with + for ascending and - for descending in front of the field you want to sort by.
-     * @param array $fields The fields you want receive.
+     * @param array $fields The fields you want to receive.
      * @return array
      * @throws SpigetException
      */
