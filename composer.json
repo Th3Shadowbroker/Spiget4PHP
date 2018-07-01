@@ -8,10 +8,5 @@
       "name": "Th3Shadowbroker",
       "email": "webmaster@m4taiori.de"
     }
-  ],
-  "autoload": {
-    "psr-4": {
-      "": ""
-    }
-  }
+  ]
 }
