@@ -8,5 +8,9 @@
       "name": "Th3Shadowbroker",
       "email": "webmaster@m4taiori.de"
     }
-  ]
+  ],
+  "autoload":
+  {
+    "classmap": ["Exceptions/", "SpigetAPI.php"]
+  }
 }
