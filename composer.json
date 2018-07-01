@@ -1,0 +1,12 @@
+{
+  "name": "th3shadowbroker/spiget4php",
+  "description": "PHP-wrapper for the spiget.org-api.",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Th3Shadowbroker",
+      "email": "webmaster@m4taiori.de"
+    }
+  ]
+}
