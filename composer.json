@@ -11,6 +11,6 @@
   ],
   "autoload":
   {
-    "classmap": ["Exceptions/", "SpigetAPI.php"]
+    "classmap": ["Environment/","Exceptions/", "SpigetAPI.php"]
   }
 }
