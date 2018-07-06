@@ -41,3 +41,9 @@ yet because I don't need it for my purposes at the moment.
 
 ## Documentation
 If you want to learn more about Spiget4PHP visit the [docs](https://docs.m4taiori.io/spiget4php/).
+
+## Contact
+Follow or just message me on social-media:
+- [Twitter](https://twitter.com/m4taiori)
+- [Keybase](https://keybase.io/th3shadowbroker)
+- [M4taiori.de](https://m4taiori.de)

@@ -32,6 +32,7 @@
 namespace de\m4taiori\spiget4php;
 
 require 'Exceptions/SpigetException.php';
+require 'Environment/Constants.php';
 
 use de\m4taiori\spiget4php\exceptions\SpigetException as SpigetException;
 
@@ -95,7 +96,7 @@ class SpigetAPI
      * @return array
      * @throws SpigetException
      */
-    public function getAuthorList( $size = null, $page =  null, $sort = null, $fields = null )
+    public function getAuthorList( $size = SPIGET4PHP_DEFAULT, $page =  SPIGET4PHP_DEFAULT, $sort = SPIGET4PHP_DEFAULT, $fields = SPIGET4PHP_DEFAULT )
     {
         $function = 'authors';
         $args = [];
@@ -116,7 +117,7 @@ class SpigetAPI
      * @return array
      * @throws SpigetException
      */
-    public function getAuthorReviews( $author, $size = null, $page =  null, $sort = null, $fields = null )
+    public function getAuthorReviews( $author, $size = SPIGET4PHP_DEFAULT, $page =  SPIGET4PHP_DEFAULT, $sort = SPIGET4PHP_DEFAULT, $fields = SPIGET4PHP_DEFAULT )
     {
         $function = 'authors/'.$author.'/reviews';
         $args = [];
@@ -137,7 +138,7 @@ class SpigetAPI
      * @return array
      * @throws SpigetException
      */
-    public function getAuthorResources( $author, $size = null, $page =  null, $sort = null, $fields = null )
+    public function getAuthorResources( $author, $size = SPIGET4PHP_DEFAULT, $page =  SPIGET4PHP_DEFAULT, $sort = SPIGET4PHP_DEFAULT, $fields = SPIGET4PHP_DEFAULT )
     {
         $function = 'authors/'.$author.'/resources';
         $args = [];
@@ -157,7 +158,7 @@ class SpigetAPI
      * @return array
      * @throws SpigetException
      */
-    public function getCategoryList( $size = null, $page =  null, $sort = null, $fields = null )
+    public function getCategoryList( $size = SPIGET4PHP_DEFAULT, $page =  SPIGET4PHP_DEFAULT, $sort = SPIGET4PHP_DEFAULT, $fields = SPIGET4PHP_DEFAULT )
     {
         $function = 'categories';
         $args = [];
@@ -190,7 +191,7 @@ class SpigetAPI
      * @return array
      * @throws SpigetException
      */
-    public function getCategoryResources( $category, $size = null, $page =  null, $sort = null, $fields = null )
+    public function getCategoryResources( $category, $size = SPIGET4PHP_DEFAULT, $page =  SPIGET4PHP_DEFAULT, $sort = SPIGET4PHP_DEFAULT, $fields = SPIGET4PHP_DEFAULT )
     {
         $function = 'categories/'.$category.'/resources';
         $args = [];
@@ -235,7 +236,7 @@ class SpigetAPI
      * @return array
      * @throws SpigetException
      */
-    public function getResourceReviews( $resource, $size = null, $page =  null, $sort = null, $fields = null )
+    public function getResourceReviews( $resource, $size = SPIGET4PHP_DEFAULT, $page =  SPIGET4PHP_DEFAULT, $sort = SPIGET4PHP_DEFAULT, $fields = SPIGET4PHP_DEFAULT )
     {
         $function = 'resources/'.$resource.'/reviews';
         $args = [];
@@ -256,7 +257,7 @@ class SpigetAPI
      * @return array
      * @throws SpigetException
      */
-    public function getResourceUpdates( $resource, $size = null, $page =  null, $sort = null, $fields = null )
+    public function getResourceUpdates( $resource, $size = SPIGET4PHP_DEFAULT, $page =  SPIGET4PHP_DEFAULT, $sort = SPIGET4PHP_DEFAULT, $fields = SPIGET4PHP_DEFAULT )
     {
         $function = 'resources/'.$resource.'/updates';
         $args = [];
@@ -277,7 +278,7 @@ class SpigetAPI
      * @return array
      * @throws SpigetException
      */
-    public function getResourceVersionList( $resource, $size = null, $page =  null, $sort = null, $fields = null )
+    public function getResourceVersionList( $resource, $size = SPIGET4PHP_DEFAULT, $page =  SPIGET4PHP_DEFAULT, $sort = SPIGET4PHP_DEFAULT, $fields = SPIGET4PHP_DEFAULT )
     {
         $function = 'resources/'.$resource.'/versions';
         $args = [];
@@ -298,7 +299,7 @@ class SpigetAPI
      * @return array
      * @throws SpigetException
      */
-    public function getSearchResource( $resource, $size = null, $page =  null, $sort = null, $fields = null )
+    public function getSearchResource( $resource, $size = SPIGET4PHP_DEFAULT, $page =  SPIGET4PHP_DEFAULT, $sort = SPIGET4PHP_DEFAULT, $fields = SPIGET4PHP_DEFAULT )
     {
         $function = 'search/resources/'.$resource;
         $args = [];
@@ -318,7 +319,7 @@ class SpigetAPI
      * @return array
      * @throws SpigetException
      */
-    public function getResourceList( $size = null, $page =  null, $sort = null, $fields = null )
+    public function getResourceList( $size = SPIGET4PHP_DEFAULT, $page =  SPIGET4PHP_DEFAULT, $sort = SPIGET4PHP_DEFAULT, $fields = SPIGET4PHP_DEFAULT )
     {
         $function = 'resources';
         $args = [];
@@ -338,7 +339,7 @@ class SpigetAPI
      * @return array
      * @throws SpigetException
      */
-    public function getFreeResourceList( $size = null, $page =  null, $sort = null, $fields = null )
+    public function getFreeResourceList( $size = SPIGET4PHP_DEFAULT, $page =  SPIGET4PHP_DEFAULT, $sort = SPIGET4PHP_DEFAULT, $fields = SPIGET4PHP_DEFAULT )
     {
         $function = 'resources/free';
         $args = [];
@@ -358,7 +359,7 @@ class SpigetAPI
      * @return array
      * @throws SpigetException
      */
-    public function getPremiumResourceList( $size = null, $page =  null, $sort = null, $fields = null )
+    public function getPremiumResourceList( $size = SPIGET4PHP_DEFAULT, $page =  SPIGET4PHP_DEFAULT, $sort = SPIGET4PHP_DEFAULT, $fields = SPIGET4PHP_DEFAULT )
     {
         $function = 'resources/premium';
         $args = [];
@@ -378,7 +379,7 @@ class SpigetAPI
      * @return array
      * @throws SpigetException
      */
-    public function getNewResourceList( $size = null, $page =  null, $sort = null, $fields = null )
+    public function getNewResourceList( $size = SPIGET4PHP_DEFAULT, $page =  SPIGET4PHP_DEFAULT, $sort = SPIGET4PHP_DEFAULT, $fields = SPIGET4PHP_DEFAULT )
     {
         $function = 'resources/new';
         $args = [];
@@ -400,7 +401,7 @@ class SpigetAPI
      * @return array
      * @throws SpigetException
      */
-    public function getResourcesForVersion( $version, $method = 'any',$size = null, $page =  null, $sort = null, $fields = null )
+    public function getResourcesForVersion( $version, $method = 'any',$size = SPIGET4PHP_DEFAULT, $page =  SPIGET4PHP_DEFAULT, $sort = SPIGET4PHP_DEFAULT, $fields = SPIGET4PHP_DEFAULT )
     {
         $function = 'resources/for/'.$version;
         $args = [];
@@ -423,7 +424,7 @@ class SpigetAPI
      * @return array
      * @throws SpigetException
      */
-    public function getSearchAuthors( $author, $field = null, $size = null, $page =  null, $sort = null, $fields = null )
+    public function getSearchAuthors( $author, $field = SPIGET4PHP_DEFAULT, $size = SPIGET4PHP_DEFAULT, $page =  SPIGET4PHP_DEFAULT, $sort = SPIGET4PHP_DEFAULT, $fields = SPIGET4PHP_DEFAULT )
     {
         $function = 'search/authors/'.$author;
         $args = [];
