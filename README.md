@@ -6,7 +6,7 @@ You can install the Spiget4PHP core using composer ([View on packagist](https://
 ``` 
 composer require th3shadowbroker/spiget4php
 ```
-If you want to work more object-oriented it's recommended to install the obj-package too. ([View on packagist](https://packagist.org/packages/th3shadowbroker/spiget4php-obj) [Git](https://github.com/th3shadowbroker/spiget4php-obj))
+If you want to work more object-oriented it's recommended to install the obj-package too. ([View on packagist](https://packagist.org/packages/th3shadowbroker/spiget4php-obj) | [Git](https://github.com/th3shadowbroker/spiget4php-obj))
 ```
 composer require th3shadowbroker/spiget4php-obj
 ```
