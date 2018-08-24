@@ -2,10 +2,15 @@
 Spiget4PHP is a PHP-wrapper for the Spiget-API created by inventivetalent ([GitHub](https://github.com/inventivetalentDev) | [Website](https://inventivetalent.org))
 
 ## Composer
-You can install Spiget4PHP using composer ([View on packagist](https://packagist.org/packages/th3shadowbroker/spiget4php)):
+You can install the Spiget4PHP core using composer ([View on packagist](https://packagist.org/packages/th3shadowbroker/spiget4php)):
 ``` 
 composer require th3shadowbroker/spiget4php
 ```
+If you want to work more object-oriented it's recommended to install the obj-package too. ([View on packagist](https://packagist.org/packages/th3shadowbroker/spiget4php-obj) | [Git](https://github.com/th3shadowbroker/spiget4php-obj))
+```
+composer require th3shadowbroker/spiget4php-obj
+```
+
 
 ## Example
 ```php
