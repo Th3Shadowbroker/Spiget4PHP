@@ -31,8 +31,8 @@
 
 namespace de\m4taiori\spiget4php;
 
-require 'Exceptions/SpigetException.php';
-require 'Environment/Constants.php';
+require_once 'Exceptions/SpigetException.php';
+require_once 'Environment/Constants.php';
 
 use de\m4taiori\spiget4php\exceptions\SpigetException as SpigetException;
 
