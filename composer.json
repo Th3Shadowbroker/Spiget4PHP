@@ -11,6 +11,12 @@
   ],
   "autoload":
   {
-    "classmap": ["Environment/","Exceptions/", "SpigetAPI.php"]
+    "classmap": ["Exceptions/", "SpigetAPI.php"],
+    "files": ["Environment/Constants.php"]
+  },
+  "require":
+  {
+    "ext-json": "*",
+    "ext-curl": "*"
   }
 }
