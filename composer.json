@@ -11,8 +11,7 @@
   ],
   "autoload":
   {
-    "classmap": ["Exceptions/", "SpigetAPI.php"],
-    "files": ["Environment/Constants.php"]
+    "classmap": ["Environment/Constants.php","Exceptions/SpigetException.php", "SpigetAPI.php"]
   },
   "require":
   {
