@@ -18,5 +18,8 @@
   {
     "ext-json": "*",
     "ext-curl": "*"
+  },
+  "suggest": {
+    "th3shadowbroker/spiget4php-obj": "^1.0.5"
   }
 }
